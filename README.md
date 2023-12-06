@@ -12,7 +12,7 @@
 <hr />
 <hr />
 
-<details>
+
 <summary>Manual de Instalação TypeBot</summary>
 
 ```bash
@@ -147,4 +147,4 @@ docker-compose up -d
 ```
 
 
-</details>
+
