@@ -13,7 +13,7 @@
 <hr />
 
 
-<summary>Manual de Instalação TypeBot</summary>
+## Manual de Instalação TypeBot
 
 ```bash
 sudo apt update && apt upgrade -y
