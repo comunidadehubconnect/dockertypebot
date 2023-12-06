@@ -102,7 +102,7 @@ services:
       - S3_ACCESS_KEY=minio # Troque se necessario - Deve ser Igual ao Declarado no Typebot Builder S3_ACCESS_KEY=
       - S3_SECRET_KEY=minio123 # Troque se necessario - Deve ser Igual ao Declarado no Typebot Builder S3_SECRET_KEY=
       - S3_BUCKET=typebot
-      - S3_ENDPOINT=storage.typebot.dominio.com.br # Troque pelo seu dominio ou subdominio
+      - S3_ENDPOINT=storage.dominio.com.br # Troque pelo seu dominio ou subdominio
   mail:
     image: bytemark/smtp
     restart: always
