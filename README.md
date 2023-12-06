@@ -86,7 +86,7 @@ services:
       - S3_ENDPOINT=storage.typebot.dominio.com.br # Troque pelo seu dominio ou subdominio
   typebot-viewer:
     labels:
-      virtual.host: 'dominiotypebotfront # Troque pelo seu dominio ou subdominio
+      virtual.host: 'typebot.dominio.com.br' # Troque pelo seu dominio ou subdominio
       virtual.port: '3000'
       virtual.tls-email: 'contato@seudominio.com.br' # Troque pelo seu email
     image: baptistearno/typebot-viewer:latest
@@ -108,7 +108,7 @@ services:
     restart: always
   minio:
     labels:
-      virtual.host: 'storage.dominiotypebotfront # Troque pelo seu dominio ou subdominio
+      virtual.host: 'storage.dominio.com.br' # Troque pelo seu dominio ou subdominio
       virtual.port: '9000'
       virtual.tls-email: 'contato@seudominio.com.br' # Troque pelo seu email
     image: minio/minio
@@ -140,6 +140,10 @@ volumes:
   s3_data:
   caddy-certificates:
     driver: local
+```
+
+```bash
+cd typebot
 ```
 
 ```bash
